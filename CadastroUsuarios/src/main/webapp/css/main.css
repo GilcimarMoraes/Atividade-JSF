@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+}
+
+h:form {
+    margin: 20px;
+}
+
+h:inputText, h:commandButton {
+    margin: 5px 0;
+}
+
+h:dataTable {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+h:column {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
