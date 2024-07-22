@@ -1,0 +1,53 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+.max-width-1400px {
+    max-width: 1400px;
+}
+
+.skill-container {
+    width: 40%;
+}
+
+.language-container {
+    height: 24px;
+    width: 100%;
+}
+
+.language-container:nth-of-type(2) {
+    width: 50%;
+}
+
+/* Specific skill widths */
+.html-skill {
+    width: 40%;
+}
+
+.css-skill {
+    width: 40%;
+}
+
+.js-skill {
+    width: 30%;
+}
+
+.python-skill {
+    width: 50%;
+}
+/* Add your existing styles here */
+
+.profile-img {
+    float: right;
+    margin-left: 20px; 
+    /*height: auto;*/
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+}
+
+.w3-container {
+    overflow: auto; 
+    }
